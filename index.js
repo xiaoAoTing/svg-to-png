@@ -64,7 +64,7 @@ async function getDirFilePath(dir) {
 }
 
 // png 生成大小
-const sizes = [16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192];
+const sizes = [16, 32, 64, 128, 144, 256, 512, 1024, 2048, 4096, 8192];
 
 (async function () {
   // 转换图片并输出到dist目录
